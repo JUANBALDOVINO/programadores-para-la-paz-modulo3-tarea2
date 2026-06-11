@@ -1,0 +1,22 @@
+POST http://localhost:3000/reportes
+Content-Type: application/json
+
+{
+  "tipo": "Vialidad",
+  "descripcion": "Bache profundo en el carril central"
+}
+
+
+### Prueba 2 de get
+GET http://localhost:3000/reportes
+Content-Type: application/json
+
+
+### Prueba 2 de post
+POST http://localhost:3000/reportes
+Content-Type: application/json
+
+{
+  "tipo": "Ambiente",
+  "descripcion": "Acumulación de residuos en una zona comunitaria"
+}
